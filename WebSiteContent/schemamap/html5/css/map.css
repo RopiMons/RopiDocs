@@ -1,0 +1,62 @@
+/*---------------------------------------------------------------
+	Stylesheet for the demo imagemap_rollover
+	Author:		Gabriel Svennerberg
+	Email:		gabriel@svennerberg.com
+	Web:		http://www.svennerberg.com
+	Created:	2008-08-16
+ ---------------------------------------------------------------*/
+
+/* Map
+---------------------------------------------------------------*/
+#map {
+	position: relative;
+	width: 340px;
+	height: 438px;
+}
+#transparent_map {
+	position: absolute;
+	z-index: 30;
+	width: 340px;
+	height: 438px;
+	border: none;
+}
+#map ul {
+	list-style: none;
+}
+#map li {
+	position: absolute;
+	z-index: 20;
+	text-indent: -1000em;
+	display: none;
+}
+#finland {
+	background: url(../img/finland.png) no-repeat;
+	width: 148px;
+	height: 283px;
+	top: 27px;
+	right: 0;
+}
+#norway {
+	background: url(../img/norway.png) no-repeat;
+	width: 292px;
+	height: 362px;
+	top: 0;
+	left: 0;
+}
+#sweden {
+	background: url(../img/sweden.png) no-repeat;
+	width: 158px;
+	height: 374px;
+	top: 64px;
+	left: 80px;
+}
+
+/* Tooltip
+---------------------------------------------------------------*/
+.tooltip {
+	background: url(../img/tooltip-bg.png);
+	padding: 3px 6px;
+	border: 1px solid #ff0;
+	position: absolute;
+	z-index: 25;
+}

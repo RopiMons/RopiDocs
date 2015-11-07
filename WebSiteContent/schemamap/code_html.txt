@@ -1,0 +1,8 @@
+Zone des images créées avec http://www.maschek.hu/imagemap
+ 
+image: ropi_basic_centered.png
+
+code:
+ 
+<map id="imgmap201511718164" name="imgmap201511718164"><area shape="rect" alt="unropiuneuro" title="" coords="51,78,379,218" href="" target="" /><area shape="circle" alt="commercants" title="" coords="547,137,94" href="" target="" /><area shape="circle" alt="prodcuteurs" title="" coords="765,194,92" href="" target="" /><area shape="circle" alt="citoyens" title="" coords="599,409,114" href="" target="" /><area shape="circle" alt="circulation" title="" coords="639,238,39" href="" target="" /><area shape="circle" alt="comptoir" title="" coords="318,381,88" href="" target="" /><area shape="circle" alt="fondsdegarantie" title="" coords="116,422,88" href="" target="" /><area shape="circle" alt="" title="" coords="827,396,53" href="" target="" /><area shape="circle" alt="" title="" coords="798,502,59" href="" target="" /><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map>
+ 

@@ -1,0 +1,37 @@
+## Utilisation des liens dans le CMS
+
+
+URL: `../../../../page/[CATEGORIE]/[PAGE]`
+
+Exemple:
+
+URL: `../../../../page/Documents/ecouler ses ropis`
+
+si la page appelante est dans le même catégorie que la page appelée, on peut se contenter de:
+
+URL: `ecouler ses ropis`
+
+La casse n'est pas importante.
+
+Lien web correspondant sera: `http://dev.ropi.be/page/Ropi/Ecouler%20ses%20ropis`
+
+
+### Fromulaires
+
+URL: `../../../../source/FormulaireRecherche.php`
+
+Lien web correspondant sera: `http://dev.ropi.be/source/FormulaireRecherche.php`
+
+
+### Achat par internet
+URL: `../../../../source/FormulaireAchatRopi.php`  
+
+http://dev.ropi.be/source/FormulaireAchatRopi.php :
+
+### Formulaire de proposition d'un nouveau prestataire 
+ URL: `../../../../source/formnouveauprestaire.php` 
+ 
+http://dev.ropi.be/sources/formnouveauprestaire.php
+
+
+

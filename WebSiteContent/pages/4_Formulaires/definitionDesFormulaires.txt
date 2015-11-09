@@ -1,0 +1,57 @@
+
+# Les formulaires ropi
+
+## Commande de ropis
+
+"Pour acheter des ropis en ligne vous devez d'abord être inscrit comme membre de l'asbl (lien vers le formulaire de demande d'adhésion). Si vous êtes déjà membre, vous pouvez commander des Ropi en complétant le formulaire ci-dessous"
+
+[champs à compléter]
+
+- `Login utilisateur`:
+- `Montant à commander (en ropis)`:
+- `Adresse de livraison`:
+	- check box: 
+		- `Livrer chez un commerçant`
+			- choisir dans drop list avec noms des commerçants + adresse.
+		- `Livrer chez un particulier`
+			- check box:
+				- `Utiliser l'adresse de correspondance du membre`
+				- `Introduire une adresse de livraison différente`  
+					- champs pour introduire l'adresse de livraison ou afficher l'adresse pré-enregistrée.
+					- [optionel] `Ajouter un texte d'accompagnement (ex: message pour un cadeau)`:
+		- `Mode de livraison`
+			- Chceck box
+				- `Par un bénévole (frais de défraiement, 2€)` 
+					- (ne s'affiche que pour des codes postaux pour lesquels on a des transporteurs --> table de transporteurs à ajouter)`
+				- `Par le coursier montois (4?€)`
+				- `Par recommandé postal garanti (xx€)`
+- `Confirmer`
+
+--> après confirmation, afficher en texte imprimable le montant et l'adresse de livraison, ainsi que le texte optionnel d'accompagnement suivi des mentions:
+
+> Vous recevrez un email de confirmation que vote commande a bien été reçue et est en cours de traitement.
+
+>Un autre email vous sera envoyé dès que votre commande sera disponible à l'adresse indiquée.
+
+> Grâce à votre commande, la masse monétaire en ropis augmente et contribue ainsi à la relocalisation de l'économie!
+
+
+Ce qui serait cool, c'est d'avoir un système suivi des commande sur l'interface membre, avec un pendant sur l'interface admin.
+
+
+
+
+## Reconversion de ropis
+
+
+## Proposition de maillage
+
+
+## Demande d'adhésion
+
+
+## Proposition d'aide
+
+
+
+## Commande de visuel

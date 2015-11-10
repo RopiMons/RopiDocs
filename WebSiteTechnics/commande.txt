@@ -1,0 +1,13 @@
+#!/bin/bash
+
+git pull origin master
+doctrine:database:drop
+doctrine:database:create
+php app/console doctrine:schema:update --force
+php app/console doctrine:fixtures:load
+php app/console cache:clear --env=prod
+php app/console assetic:dump --env=prod
+php app/console assets:install --env=prod 
+php app/console braincrafted:bootstrap:install
+php app/console braincrafted:bootstrap:generate
+

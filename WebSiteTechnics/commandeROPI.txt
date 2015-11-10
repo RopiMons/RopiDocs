@@ -1,0 +1,80 @@
+La personne doit être enregistrée pour effectuer une commande de Ropi
+
+
+
+----------
+|Entities| RopiAccountBundle:
+----------
+-> RopiOrder
+--> montant (float)
+--> statut --one--To--Many--> Statut (Ok)
+--> membre --one--To--Many--> Personne (Ok)
+--> modeDePaiement --one--To--Many -> ModeDePaiement (Ok)
+--> paiements --many--to--one--> Paiement (Ok)
+--> dateCreation (datetime)
+--> traiteePar --One--To--Many--> Personne (Ok)
+--> adresseDeLivraison --One--To--Many--> Adresse (Ok)
+--> modeDeLivraison --One--To--Many--> ModeDeLivraison (Ok)
+--> accuseDeReception --One--To--Many--> Fichier (ok)
+
+->Statut
+-->nom {Livré, en cours, ...} (String 30)
+-->description (text)
+-->notifierMembre (bool)
+-->notifierAdmin (boolean)
+
+Statut ----(Change, Message, Personne) ------- RopiOrder
+
+->ModeDePaiement
+-->nom {Visa, Bancontact, Ogone, ...} (string 30)
+-->description (texte)
+-->isActif (bool)
+-->route (string 255)
+-->fraisAdd (%) (float)
+-->min (float)
+-->max (float)
+
+->Paiement
+-->modeDePaiement One-To-Many--> ModeDePaiement(ok)
+-->compteDebit ---One--To--Many--> Compte (Ok)
+-->compteCredit ---One--To--Many--> Compte (Ok)
+-->montant (float)
+-->date (datetime)
+-->communication (texte)
+-->referenceComptable (string 50)
+-->pieceComptable (string 255)
+
+->Compte
+-->devise --One--to--Many--> Devise (Ok)
+-->proprietaire --Many--to--Many -> Personne (Ok)
+-->description (text)
+-->nomCourt (string 30)
+-->referenceComptable (string 50)  
+-->isCompteTransit (Appartient à l'ASBL via un représentant ? -> Doit-être cloturé dans l'absolu) (bool)
+-->isCompteAsbl  (bool)
+
+--->CompteBancaires (extend Compte)
+----->iban (String 50)
+--->CompteCash (extend Compte)
+
+
+->ModeDeLivraison
+-->prix (float)
+-->description (text)
+-->montantSeuil (float)
+-->prestataire --One--To--Many--> Personne (Ok)
+-->supportGeos --Many--To--Many--> Ville (Ok)
+
+->Devise
+--->nom (string 15)
+--->symbole (string 5)
+--->pariteVsRopi --Many--To--Many--> Parite
+--->isRopi (bool)
+
+->Parite
+-->devise1 --One--To--Many--> Devise (Ok)
+-->(devise2 = Ropi)
+-->tauxVersRopi (De devise vers Ropi) (float)
+-->dateDebut (datetime)
+
+/!\ Modifier la table Personne => Bool Membre ?

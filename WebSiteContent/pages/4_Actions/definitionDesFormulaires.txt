@@ -1,0 +1,147 @@
+
+# Les formulaires ropi
+
+## Commande de ropis
+
+"Pour acheter des ropis en ligne vous devez d'abord être inscrit comme membre de l'asbl (lien vers le formulaire de demande d'adhésion). Si vous êtes déjà membre, vous pouvez commander des Ropi en complétant le formulaire ci-dessous"
+
+[champs à compléter]
+
+- `Login utilisateur`:
+- `Montant à commander (en ropis)`:
+- `Adresse de livraison`:
+	- check box: 
+		- `Livrer chez un commerçant`
+			- choisir dans drop list avec noms des commerçants + adresse.
+		- `Livrer chez un particulier`
+			- check box:
+				- `Utiliser l'adresse de correspondance du membre`
+				- `Introduire une adresse de livraison différente`  
+					- champs pour introduire l'adresse de livraison ou afficher l'adresse pré-enregistrée.
+					- [optionel] `Ajouter un texte d'accompagnement (ex: message pour un cadeau)`:
+		- `Mode de livraison`
+			- Chceck box
+				- `Par un bénévole (frais de défraiement, 2€)` 
+					- (ne s'affiche que pour des codes postaux pour lesquels on a des transporteurs --> table de transporteurs à ajouter)`
+				- `Par le coursier montois (4?€)`
+				- `Par recommandé postal garanti (xx€)`
+- `Confirmer`
+
+--> après confirmation, afficher en texte imprimable le montant (avec livraison) et l'adresse de livraison, ainsi que le texte optionnel d'accompagnement suivi des mentions:
+
+> Vous recevrez un email de confirmation que vote commande a bien été reçue et est en cours de traitement.
+
+>Un autre email vous sera envoyé dès que votre commande sera disponible à l'adresse indiquée.
+
+> Grâce à votre commande, la masse monétaire en ropis augmente et contribue ainsi à la relocalisation de l'économie!
+
+
+Ce qui serait cool, c'est d'avoir un système suivi des commande sur l'interface membre, avec un pendant sur l'interface admin.
+
+
+
+
+## Reconversion de ropis
+
+
+Avant de continuer la procédure de reconversion, n'oubliez pas de consulter nos [trucs et astuces pour écouler vos ropi](../../../../page/Ropi/Ecouler ses ropis), ces trucs vous permettront peut-être d'éviter de devoir reconvertir en euro avec 5% de perte.
+
+Si vous décidez tout de même de reconvertir vos ropis, vous devez d'abord être inscrit comme membre prestataire de l'asbl ([demande d'adhésion](../../../../page/Fromulaires/Demande d'adhésion)). Si vous êtes déjà membre, vous pouvez reconvertir des Ropi en complétant le formulaire ci-dessous. 
+
+
+Un ambassadeur viendra vous rendre visite à une date convenue pour effectuer la transaction (récupérer les ropis et vous rendre des euros en échange)."
+
+[champs à compléter]
+
+- `Login utilisateur`:
+- `Montant à convertir (en ropis, minimum 50 ropis)`:
+- `Taux de reconversion`: mis automatiquement à 5% ou 0% si dérogation (liée au commerce dans db)
+- `Adresse de transaction`:
+	- check box: 
+		- `Adresse du commerce`
+		- `Adresse du siège social`
+		- `Autre adresse`
+- `Date de transaction (proposer 4 créneaux horaires)`
+	- `Créneau 1`: `date`, `heure début` - `heure fin`
+	- `Créneau 2`: `date`, `heure début` - `heure fin`
+	- `Créneau 3`: `date`, `heure début` - `heure fin`
+	- `Créneau 4`: `date`, `heure début` - `heure fin`
+	- `Commentaire (optionnel)`: 	
+- `Confirmer`
+
+--> après confirmation, afficher en texte imprimable le montant à convertir et l'adresse de transaction, ainsi que le commentaire optionnel d'accompagnement suivi des mentions:
+
+> Vous recevrez un email de confirmation dèq que vote demande de transaction aura bien été reçue et sera en cours de traitement.
+
+>Un autre email vous sera envoyé dès qu'une date de transaction aura été choisie.
+
+
+Ce qui serait cool, c'est d'avoir un système suivi des demandes de reconversion commande sur l'interface membre, avec un pendant sur l'interface admin.
+
+## Proposition de maillage
+
+déjà fait par Laurent via user space.
+
+## Demande d'adhésion
+
+déjà fait par Laurent via user space
+
+## Proposition d'aide
+
+"Pour proposer votre aide vous devez d'abord être inscrit comme membre sympatisant ou effectif de l'asbl (lien vers le formulaire de demande d'adhésion). Si vous êtes déjà membre, vous pouvez compléter le formulaire suivant. Vous serez alors tenu au courant des dates de nos prochaines réunions en fonction des thématiques que vous aurez choisies. 
+
+`Login utilisateur`:
+`Type d'aide proposée`: check box multiple
+
+	- ambassadeur (démarchage de commerçants, communication extérieure, ...)
+	- transporteur (livraison de ropis chez les commerçants, ou à domicile)
+	- développeur (programmation et mise en page site web, monnaie électronique, ...) 
+	- rédacteur (mise à jour du contenu du site web) 
+	- comptables (gestion de la comptabilité et contrôles),
+	- juristes (statuts, communication avec la BNA, la FSMA, ...),
+	- organisateurs d'événements (fêtes, projection cinéma, conférence, ...),
+	- administrateurs de l'asbl, 
+	- boutes-en-trains
+	- AUTRES --> zone de commentaire en texte libre.
+
+`Veuillez nous préciser vos motivations à devenir bénévole de l'asbl`
+(zone de texte libre).
+
+
+`Confirmer`
+
+> Vous recevrez un email de confirmation dès que vote proposition d'aide aura bien été reçue et sera en cours de traitement.
+
+> Vous serez régulièrement mis au courant de la tenue de nos réunions en fonction des thématiques traitées.
+
+
+## Commande de visuel
+
+"Pour commander des visuels vous devez d'abord être inscrit comme membre effectif de l'asbl (lien vers le formulaire de demande d'adhésion). 
+
+Si vous êtes déjà membre, vous pouvez compléter le formulaire suivant pour commander des visuels. 
+
+`Login utilisateur`:
+`Visuels demandés`: check box multiple, introduire la quantité de visuels demandés
+
+- `Le Flyers` 
+- `L'auto-collant "J'accepte le Ropi"`
+- `Des cartes de visite` 
+	- (uniquement si le membre est ambassadeur ou admin)
+	- `Tel` (compléter un numéro de tel optionnel)
+
+- `Adresse de livraison (si différente de l'adresse du membre)`
+
+- `Commentaire` (un petit mot pour nous dire ce que vous comptez faire de ces visuels)
+
+## Classification des livraisons
+
+Virement, paypal, Ropi élecronique, cash
+
+domicile recommandé, chez commerçant
+
+
+Modes paiements
+Modes de livraison
+
+status par lesquels peuvent passer une commande

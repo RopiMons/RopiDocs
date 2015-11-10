@@ -1,0 +1,79 @@
+-> Personne enregistrée ?
+--> Pas forcément, mais autocomplétition
+
+----------
+|Entities|
+----------
+-> RopiOrder
+--> Montant de la commande
+--> Statut --one--To--Many--> Statut (Ok)
+--> Membre --one--To--Many--> Personne (Ok)
+--> ModeDePaiement --one--To--Many -> ModeDePaiement (Ok)
+--> Paiements --many--to--one--> Paiement (Ok)
+--> createdAt
+--> TraitéePar --One--To--Many--> Personne (Ok)
+--> AdresseDeLivraison --One--To--Many--> Adresse (Ok)
+--> ModeDeLivraison --One--To--Many--> ModeDeLivraison (Ok)
+--> AccuséDeRéception --One--To--Many--> Fichier (ok)
+
+->Statut
+-->nom {Livré, en cours, ...}
+-->description
+-->NotifierMembre 
+-->NotifierAdministrateur
+
+Statut ----(Change, Message, Personne) ------- RopiOrder
+
+->ModeDePaiement
+-->Nom {Visa, Bancontact, Ogone, ...}
+-->Description
+-->Actif ?
+-->Route
+-->Frais additionnels (%)
+-->Min
+-->Max
+
+->Paiement
+-->Mode de paiement One-To-Many--> ModeDePaiement(ok)
+-->CompteDébit ---One--To--Many--> Compte (Ok)
+-->CompteCrédit ---One--To--Many--> Compte (Ok)
+-->montant
+-->date
+-->communication
+-->refénceComptable
+-->PieceComptable
+
+->Compte
+-->Devise --One--to--Many--> Devise (Ok)
+-->AppartientA --Many--to--Many -> Personne (Ok)
+-->description du compte
+-->nomCourt
+-->Numéro comptable
+-->transit (Appartient à l'ASBL via un représentant ? -> Doit-être cloturé dans l'absolu)
+-->CompteASBL ?
+
+--->CompteBancaires
+----->IBAN
+--->CompteCash
+
+
+->ModeDeLivraison
+-->prix
+-->description
+-->montantSeuil
+-->Fournisseur --One--To--Many--> Personne (Ok)
+-->LimiteGéographique --Many--To--Many--> Ville (Ok)
+
+->Devise
+--->nom
+--->Symbole
+--->pariteParRapportAuRopi --Many--To--Many--> Parite
+--->Ropi ?
+
+->Parite
+-->Devise1
+-->(Devise2 = Ropi)
+-->TauxDe1vers2 (De devise vers Ropi)
+-->DateDebut
+
+/!\ Modifier la table Personne => Bool Membre ?

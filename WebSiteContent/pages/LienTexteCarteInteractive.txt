@@ -1,0 +1,1 @@
+src/Ropi/CMSBundle/Resources/public/js/init_map.js

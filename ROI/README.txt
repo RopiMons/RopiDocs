@@ -1,0 +1,1 @@
+Le fichier `RopiCleAdhesion.pdf` est éditable via [https://www.lucidchart.com/invitations/accept/235d3555-8f76-48f0-aaa7-e8c71015c59a](https://www.lucidchart.com/invitations/accept/235d3555-8f76-48f0-aaa7-e8c71015c59a).

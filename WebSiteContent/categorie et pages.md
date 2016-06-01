@@ -52,3 +52,10 @@ FAIT
 	* H1: Modèle de conventions avec les prestataires, 
 	* H1: Compte rendus des réunions (CA et AG)
 	* H1: Comptabilité
+## lien
+
+pour les pages : ../../../../page/
+
+pour les modules : ../../../my
+
+pour les documents : https://github.com/RopiMons/RopiDocs/raw/master/KitAmbassadeur/RopiVademecumAmbassadeur.pdf

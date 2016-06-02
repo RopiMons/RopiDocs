@@ -1,0 +1,25 @@
+> *from* : *[emailSupport]()
+> 
+> *subject* : [Ropi.Be] confirmation de création de commerce 
+
+---
+Bonjour *[prénomCommerçant](),
+
+Votre demande de création d'un commerce nous est bien parvenue. 
+
+Nous nous réjouissons d'accueillir un nouveau membre prestataire dans le réseau Ropi !
+
+Avant de pouvoir confirmer votre demande et rendre votre commerce visible au public sur le site web, nous évaluons votre demande et prendrons contact avec vous afin de se rencontrer et signer la convention entre votre commerce et l'asbl Ropi.
+
+Entre-temps, pouvez-vous prendre connaissance des documents suivants ?
+
+- [la convention](https://github.com/RopiMons/RopiDocs/raw/master/Conventions/RopiAdhesionMembre1%262.pdf)
+- [la charte](https://github.com/RopiMons/RopiDocs/raw/master/Charte/RopiCharte.pdf)
+- [le règlement d'ordre intérieur](https://github.com/RopiMons/RopiDocs/raw/master/ROI/RopiROI.pdf)
+- [la clef d'adhésion](https://github.com/RopiMons/RopiDocs/raw/master/ROI/RopiCleAdhesion.pdf)
+
+Pouvez-vous aussi contrôler que la [localisation géographique (GPS)](http://dev.ropi.be/commerces) de votre commerce, basée sur l'adresse que vous avez introduite, est bien correcte ? Dans le cas contraire, nous pourrons faire la correction nécessaire lors de notre rencontre.
+
+A très bientôt,
+
+L'équipe Ropi

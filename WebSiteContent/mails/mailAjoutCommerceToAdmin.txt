@@ -1,0 +1,29 @@
+> *from* : *[emailAdmin]()
+> 
+> *subject* : [Ropi.Be/admin] confirmation de création de commerce 
+
+---
+Bonjour *[responsableDeZoneduCommerceInscrit],
+
+L'utilisateur *[prénomCommerçant] *[nomCommerçant] (*[login](http://lienversCoordonnées)) vient de créer le commerce *[nomCommerce](https://lienVersLeCommerce). 
+
+Coordonnées du contact :
+
+- *[emailCommerce](mailto:emailcommerce)
+- *[telephoneCommerce]()
+- *[adresse du commerce]()
+
+
+Peux-tu prendre contact avec lui dès que possible afin de :
+
+- s'assurer qu'il a pris connaissances de la [la charte](https://github.com/RopiMons/RopiDocs/raw/master/Charte/RopiCharte.pdf), [du règlement d'ordre intérieur](https://github.com/RopiMons/RopiDocs/raw/master/ROI/RopiROI.pdf) et de [la clef d'adhésion](https://github.com/RopiMons/RopiDocs/raw/master/ROI/RopiCleAdhesion.pdf). Ces documents lui ont été transmis automatiquement lors de la création de son commerce.
+- lui faire signer [la convention](https://github.com/RopiMons/RopiDocs/raw/master/Conventions/RopiAdhesionMembre1%262.pdf) entre le prestataire et l'asbl Ropi.
+
+Une fois la convention signée, n'oublie pas de valider le commerce via l'[interface de validation d'un commerce](http://dev.ropi.be/my/commerce/) du site web.
+
+Si tu as un soucis, contacte *[emailAdmin]
+
+Ropieur'Bot
+
+
+	

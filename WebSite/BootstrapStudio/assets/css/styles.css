@@ -1,0 +1,155 @@
+#banner {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #ecf5f4;
+}
+
+#banner-row {
+  border-radius: 20px;
+  border: 1px;
+}
+
+#banner-header {
+  background-color: #eee;
+}
+
+#logo {
+  max-width: 150px;
+}
+
+#citation-counters {
+  padding: 20px;
+}
+
+.counter-header {
+  font-size: 10px;
+  text-align: center;
+}
+
+#citation {
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  font-family: calibri;
+  font-style: italic;
+}
+
+#citation-signature {
+  font-size: 12px;
+  padding-left: 80px;
+  font-family: calibri;
+  margin-top: -15px;
+  color: #c5c4c4;
+}
+
+#counters {
+  padding-top: 20px;
+}
+
+.counter-body {
+  text-align: center;
+}
+
+.table-dark {
+  background-color: rgba(64,70,84,0);
+  border-radius: 20px;
+  font-family: monospace;
+  color: #5a5757;
+}
+
+#eventail {
+  max-width: 230px;
+}
+
+#menu {
+  background-color: #ecf5f4;
+  margin-top: 50px;
+}
+
+.btn.btn-primary {
+  background-color: #505050;
+  margin-top: 20px;
+  color: #cdcdcd;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+}
+
+.jumbotron {
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+#video-mc {
+  padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+  #valeurs {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+#carte-interactive {
+  padding-top: 20px;
+  max-height: 180px;
+}
+
+@media (max-width: 991px) {
+  #carte-interactive {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+#valeurs {
+  background-color: #ecf5f4;
+  text-align: center;
+}
+
+#pourquoi {
+  background-color: #ecf5f4;
+  text-align: center;
+}
+
+.actions {
+  background-color: #fbbdd0;
+  text-align: center;
+}
+
+.action-icon {
+  font-size: 40px;
+}
+
+#action-obtenir {
+  background-color: #ffa7a4;
+}
+
+#action-partenaire {
+  background-color: #abb4f0;
+}
+
+#action-depenser {
+  background-color: #fed18d;
+}
+
+#action-benevole {
+  background-color: #93e6da;
+}
+
+.subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+#ropi-heading {
+  color: #848484;
+  text-align: justify;
+}
+
